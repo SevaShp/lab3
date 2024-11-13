@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title> Домашняя страничка </title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body class="bod">
+        
+        <header class="header">
+            <div class="container">
+                 <nav class="main-menu">
+                    <a href="#about">Обо мне</a>
+                    <a href="#score">Оценки</a>
+                    <a href="form.html">Обратная связь</a>
+                    <a href="auth.html" class="aut" >Авторизация</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section id="about">
+                    <h1>Обо мне</h1>
+                    <p>
+                        Привет! Я учусь на втором курсе Московского Политеха и хочу показать результаты за свой первый курс.
+                    </p>
+                    <figure class="photo">
+                        <img src="images/photo_2024-09-19_03-07-22.jpg" alt="Моё Фото">
+                    </figure>
+                
+                </section>
+                <section id="score">
+                    <h1>Оценки</h1>
+                    <p>
+                        Хочу продемонстрировать вам свои оценки за 1 курс
+                    </p>
+                    <table>
+                        <tr>
+                            <td>Предмет</td>
+                            <td>Оценка</td>
+                            <td>Семестр</td>
+                        </tr>
+                        <tr>
+                            <td>Курсовой проект</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Основы программирования</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Линейная Алгебра</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Алгоритмы и структуры данных</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Базы данных</td>
+                            <td>5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Курсовой проект</td>
+                            <td>5</td>
+                            <td>2</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>Прикладное программирование</td>
+                            <td>5</td>
+                            <td>2</td>
+                        </tr>
+                    </table>
+                    <section id="about">
+                        
+                </section>
+            
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <php
+                date_default_timezone_set(Moscow);
+                
+                $currentDateTime = date(d.m.Y);
+                echo "Сформировано $currentDateTime";
+            ?>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
